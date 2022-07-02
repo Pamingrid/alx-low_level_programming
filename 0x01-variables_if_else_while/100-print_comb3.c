@@ -1,4 +1,5 @@
 #include <stdio.h>
+#include <sttime.h>
 #include <stlib.h>
 /**
  * main - main block
