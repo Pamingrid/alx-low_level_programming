@@ -10,9 +10,9 @@ int main(void)
 {
 int p, q;
 {
-for (p = 0; p = < 98; p++)
+for (p = 0; p <= 98; p++)
 {
-for (q = 0; q = < 98; q++)
+for (q = 0; q <= 98; q++)
 {
 if (p != q)
 putchar((p / 10) + '0');
