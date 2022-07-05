@@ -1,6 +1,4 @@
 #include <_putchar.h>
-#include <stdio.h>
-#include <stdlib.h>
 /**
  * main - main block
  * Description: write a program that print _putchar
