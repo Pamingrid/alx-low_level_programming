@@ -4,13 +4,15 @@
  * @n: an integer input
  * Description: this function print the last digit of a number
  *
- * Return: last digit of n
+ * Return: last digit 
  */
-
-int print_last_digit(int n)
+int print_last_digit(int r)
 {
-		int last_digit = ((n < 0 ? -1 : 1) * n) % 10;
-
-			_putchar('0' + last_digit);
-				return (last_digit);
+int n;
+if (r < 0)
+n = -1 * (r % 10);
+else
+n = r % 10;
+_putchar((n % 10) + '0');
+return (n % 10);
 }
