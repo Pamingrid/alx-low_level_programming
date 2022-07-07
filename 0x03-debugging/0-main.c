@@ -6,7 +6,7 @@
  */
 int main(void)
 {
-	int n;
+	int n = 98;
 
 srand(time(0));
 
