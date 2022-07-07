@@ -1,7 +1,7 @@
 #include "main.h"
 /**
  * main - test the function negative or positive
- *
+ * Description the variable n will return a value
  * Return: 0
  */
 int main(void)
