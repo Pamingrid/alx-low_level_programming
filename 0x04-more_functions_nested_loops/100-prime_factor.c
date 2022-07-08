@@ -1,24 +1,17 @@
 #include <stdio.h>
 /**
- * main - prime numbers
- *
- * Return: always 0
+ * main - Entry point
+ * Return: 0
  */
 int main(void)
 {
-	long int x = 612852475143;
-	long int py;
+	unsigned long int i = 3, n = 612852475143;
 
-	for (py = 2; py < x; py++)
+	for (; i < 12057; i += 2)
 	{
-		if (x % py == 0)
-		{
-			if (x % py == 0)
-			{
-				x = x / py;
-			}
-		}
-		printf("%ld\n", py);
-		}
+		while (n % i == 0 && n != i)
+			n /= i;
+	}
+	printf("%lu\n", n);
 	return (0);
 }
