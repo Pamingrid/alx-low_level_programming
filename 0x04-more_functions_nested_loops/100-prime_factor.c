@@ -1,5 +1,5 @@
 #include <stdio.h>
-#include <math.h>
+
 /**
  * main - main block
  * Description: Find and print the largest prime factor of the number
