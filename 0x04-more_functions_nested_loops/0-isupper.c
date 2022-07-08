@@ -2,9 +2,12 @@
 /**
  * _isupper - check if character is lower case
  * @c: character to be checked
- * Return: 1 if lowercase 0 otherwise
+ * Return: 1 if uppercase character, 0 otherwise
  */
 int _isupper(int c)
 {
-		return ('64' < c && c < '91' ? 1 : 0);
+		if (c >= 'A' && c <= 'Z')
+			return (1);
+		else
+			return (0);
 }
