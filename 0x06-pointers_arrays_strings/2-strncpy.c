@@ -1,28 +1,28 @@
 #include "mai.h"
 /**
  * _strncpy - function that copies a string
- * @dest: A pointer to a character that will be changed
- * @src: A pointer to a character that will be changed
- * @n: value
+ * @dest: array that returns
+ * @src: the pointer that receive the string
+ * @n: times to interate
  *
- * Return: dest
+ * Return: the parameter dest
  */
 char *_strncpy(char *dest, char *src, int n);
 {
-	int a;
+	int i;
 
-	a = 0;
-	while (a < n && src[a] != '\0')
+	i = 0;
+	while (i < n && src[i] != '\0')
 	{
-		dest[a] = src[a];
+		dest[i] = src[i];
 		a++;
 	}
 
-	a = a;
-	while (a < n)
+	i = i;
+	while (i < n)
 	{
-		dest[a] = '\0';
-		a++;
+		dest[i] = '\0';
+		i++;
 	}
 
 return (dest);
